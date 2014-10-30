@@ -1,0 +1,1010 @@
+.indepth_table_la{
+	margin-right: 15px;
+	float: left;
+	display: table;
+}
+
+.indepth_tg_table{
+	display: table;
+}
+
+.indepth_tg_table_title{
+	width: 195px;
+	text-align: center;
+background: #2a4a5b;
+color: white;
+font-weight: 200;
+padding: 8px 0;
+font-size: 22px;
+}
+.indepth_tg_table_cont{
+	width: auto;
+	height: 620px;
+	overflow-y: scroll;
+	float: left;
+}
+.indepth_tg1{
+	margin: 0px;
+}
+.indepth_tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;
+	text-align: center;
+}
+.indepth_tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+.indepth_tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.indepth_tg .tg-pf0l{background-color:#386982;color:#ffffff;}
+
+/*****  Tabla ****/
+
+
+.expand-corte{
+	width: 640px;
+}
+
+.indepth_list{
+	display: table;
+	margin-bottom: 15px;
+}
+
+.indepth_list_number{
+	width: 30px;
+	height: 30px;
+	color: white;
+	border-radius: 50%;
+	float: left;
+	background-color: #a8ce2c;
+	text-align: center;
+	line-height: 30px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.indepth_list_text{
+	margin-left: 40px;
+	border-left: 1px solid rgb(233, 230, 230);
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.indepth_tabla_full{
+		width: 640px;
+		margin: auto;
+		margin-bottom: 30px;
+		display: table;
+	}
+
+	.indepth_tabla_full_container{
+		width: 100%;
+		margin: auto;
+		border-left: 1px solid rgb(216, 216, 216);
+		border-top: 1px solid rgb(216, 216, 216);
+		height: 430px;
+		overflow:  hidden;
+	}
+	
+	.indepth_tabla_container{
+		width: 100%;
+		display: table;
+
+	}
+	
+	.indepth_tabla_element{
+		width: 159px;
+		border-right: 1px solid rgb(216, 216, 216);
+		border-bottom: 2px solid rgb(216, 216, 216);
+		display: table;
+		float: left;
+	}
+	
+	.indepth_tabla_element_head{
+		width: 100%;
+		height: 115px;
+		padding-top: 5px;
+		border-bottom: 1px solid rgb(216, 216, 216);
+	}
+	
+	.indepth_tabla_element_head_img{
+		height: 70px;
+		width: 90%;
+		margin: auto;
+		text-align: center;
+		
+	}
+	
+	.indepth_tabla_element_head_img img{
+		height: 100%;
+		width: auto;
+	}
+	
+	.indepth_tabla_element_head_img.large img{
+		width: 100%;
+		height: auto;
+	}
+	
+	.indepth_tabla_element_head_name{
+		text-align: center;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	
+	.indepth_tabla_element_body_elem{
+		width: 52px;
+		float: left;
+		height: 40px;
+		text-align: center;
+		font-size: 16px;
+		line-height: 40px;
+	}
+	
+	indepth_tabla_element_body_elem.country{
+		line-height: 16px;
+	}
+	
+	.indepth_tabla_element_body_elem.porcentaje, .indepth_tabla_element_body_elem.total{
+		border-right: 1px solid rgb(216, 216, 216);
+	}
+	
+	.indepth_tabla_element_body_elem.porcentaje{
+		border-bottom: 3px solid #2778B1; 
+		width: 53px;
+	}
+	
+	.indepth_tabla_element_body_elem.total{
+		border-bottom: 3px solid #ffbe6e; 
+	}
+	
+	.indepth_tabla_element_body_elem.country{
+		border-bottom: 3px solid #088600; 
+	}
+	
+	.indepth_tabla_element_country_name{
+		font-size: 14px;
+		line-height: 16px;
+		margin-top: 4px;
+	}
+	
+	.indepth_tabla_element_country_number{
+		margin: 0px;
+		padding: 0px;
+		line-height: 16px
+	}
+	
+	.indepth_tabla_head{
+		color: white;
+		background: #678f77;
+		display: table;
+		font-family: 'Roboto';
+		text-align: center;
+		width: 100%;
+	}
+	
+	.indepth_tabla_head_title{
+		font-size: 24px;
+		text-transform: uppercase;
+		margin: 10px 0px;
+	}
+
+	.indepth_tabla_head_body{
+		font-size: 12px;
+		
+	}
+	
+	.indepth_tabla_element_title{
+		width: 320px;
+		margin: auto;
+		height: auto;
+		margin-bottom: 10px;
+		display: table;
+		display: none;
+		
+	}
+	
+	.indepth_tabla_head_body_elem{
+	font-size: 10px;
+		width: 100px;
+		padding: 2px 3px;
+		float: left;
+		height: 30px;
+	}
+	
+	.indepth_tabla_head_body_elem.porcentaje, .indepth_tabla_head_body_elem.total{
+		border-right: 1px solid rgb(216, 216, 216);
+	}
+	
+	.indepth_tabla_footer{
+		width: 100%;
+		padding: 10px 10px;
+		display: table;
+		
+	}
+	
+	.indepth_tabla_footer_element{
+		height: 20px;
+		font-size: 12px;
+		float: left;
+		margin-right: 10px;
+	}
+	
+	.indepth_tabla_footer_element div{
+		width: 8px;
+		height: 8px;
+		margin: 6px 5px;
+		float: left;
+	}
+	
+	.indepth_tabla_footer_element.porcentaje div{
+		background-color: #2778B1; 
+	}
+
+	.indepth_tabla_footer_element.numero div{
+		background-color: #ffbe6e; 
+	}
+	
+	.indepth_tabla_footer_element.nacionalidad div{
+		background-color: #088600; 
+	}
+	
+	.indepth_tabla_expand{
+		cursor: pointer;
+		display: table;
+		width: 100%;
+		
+		border-bottom: 1px solid rgb(216, 216, 216);
+		border-right: 1px solid rgb(216, 216, 216);
+		border-left: 1px solid rgb(216, 216, 216);
+	}
+	
+	.indepth_tabla_expand_text{
+		text-align: center;
+		margin: 10px auto;
+		font-size: 20px;
+		text-transform: uppercase;
+		font-family: 'Roboto';
+		color:  rgba(174,174,174,1);
+	}
+	
+	/**** fin tabla ***/
+
+.porcent{
+	font-size: 25px;
+	vertical-align: top;
+	line-height: 30px;
+}
+.numers_indepth{
+	display: table;
+	width: 370px;
+	text-align: left;
+	margin: 15px;
+}
+
+.indepth_numbers_content{
+width: 500px;
+margin: auto;
+}
+
+
+ .numers_indepth{
+	width: 100%;
+	font-size: 16px;
+}
+
+ .indepth_text .f_letter{
+	font-size: 60px;
+	float: left;
+	line-height: 44px;
+	font-weight: 700;
+	margin-right: 5px;
+	margin-top: 2px;
+	text-align: right;
+}
+
+.indepth_pages{
+	width: 100%;
+	min-width: 960px;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	font-family: 'Roboto';
+	font-size: 19px;
+	margin: auto;
+}
+
+.indepth_page{
+	width: 100%;
+	min-width: 960px;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	margin: auto;
+}
+
+.indepth_page_content{
+	background-color: white;
+	position: relative;
+}
+
+.indepth_page_body{
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 810px;
+	z-index: 2;
+}
+
+#indepth_cover{
+	height: 757px;
+	background: #141414;
+}
+
+#indepth_cover .indepth_page_body{
+	position: relative;
+	display: table;
+}
+
+#indepth_cover .indepth_titlle_container{
+	float: left;
+	width: 707px;
+	 color: #FFF;
+}
+
+
+.indepth_video{
+	width:460px;
+	height:auto;
+	margin: auto;
+}
+
+.indepth_video iframe{
+	width:460px;
+	height:259px;
+	margin: auto;
+}
+ #indepth_ver_texto{
+	display: inline-block;
+	padding: 3px 15px;
+	 background-color: rgba(0,0,0,0.25);
+	 border: 1px solid #FFF;
+	 color: #FFF;
+	 margin-top: 12px;
+	 cursor: pointer;
+	 font-weight: 500;
+	 font-size: 10px;
+	 border-radius: 5px;
+	 text-align: center;
+}
+
+#indepth_ver_texto:hover{
+	background-color: rgba(233,233,233,0.15);
+}
+
+#indepth_cover .indepth_parallax_back{
+	background-image: url(../images/portada.jpg);
+	background-size: 1920px auto;
+	background-position: 50% 0;
+}
+
+#indepth_cover .indepth_cover_back_body{
+	position: relative;
+	top: 350px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 20px 0;
+}
+
+#indepth_cover .indepth_title{
+	font-size:39px;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#indepth_cover .indepth_subtitle{
+	font-size:17px;
+	color:#FFF;
+	font-weight: 400;
+}
+
+
+/****social*****/
+.indepth_home-element-social div{
+	float: left;
+	margin-top: 3px;
+	margin-left: 6px;
+}
+
+.indepth_home-element-social{
+	width: 160px;
+	margin: 15px auto;
+	height: 30px;
+}
+
+/**********************/
+
+.indepth_page_content .indepth_page_body{
+	padding: 60px 0;
+	position: relative;
+}
+
+.indepth_page_content .indepth_container{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.indepth_page_content .indepth_title{
+	font-size:34px;   /* tamaño */
+	font-family: 'Roboto', sans-serif; /* fuente */
+	font-weight: 300;
+	text-transform: uppercase; /* comentar para quitar mayusculas */
+	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
+	color: #000;
+}
+
+.indepth_page_content .indepth_subtitle{
+	font-size:22px;   /* tamaño */
+	font-family: 'Roboto', sans-serif; /* fuente */
+	font-weight: 400;
+	text-transform: uppercase; /* comentar para quitar mayusculas */
+	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
+	color: #000;
+}
+
+.indepth_page_content .indepth_text{
+	color: #535252; /* color de la fuente*/
+	text-align:justify; /* ajustar alineacion (justify, left, right o center) */
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.indepth_page_infografia{
+	
+}
+
+.indepth_page_infografia .indepth_page_body{
+	text-align: center;
+}
+
+#indepth_footer{
+	background-color: #F8F8F8;
+	border-top: 1px solid #8A8A8A;
+	border-bottom: 1px solid #8A8A8A;
+	padding: 15px 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#indepth_footer .indepth_text{
+	font-size:17px;
+	color: #8A8A8A;
+	text-align:center;
+}
+
+#indepth_footer .indepth_page_body{
+	position: relative;
+}
+
+#indepth_footer .Copyright{
+		float: left;
+		text-align: center;
+		width: 100%;
+}
+
+.indepth_break{
+		height: 800px;
+}
+
+.indepth_break .indepth_page_body{
+	height: 100%;
+	background-size: cover;
+	top: 0px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 0px;
+
+}
+
+.indepth_break .indepth_text_container{
+		height: 100%; /* */
+		display: table;
+}
+
+.indepth_break .indepth_text{
+	font-size:17px;
+	font-weight: 400;
+	color: #fff; /* color de la fuente*/
+	max-width:400px;
+	display: table-cell;
+	vertical-align: middle;		
+	text-align: justify;	
+}
+
+.indepth_break .indepth_title{
+	font-size:56px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+.indepth_parallax_back {
+	height: 100%;
+	background-size: cover;
+	background-color: #000;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+}
+
+
+
+.indepth_image_r img, .indepth_image_left img, .indepth_image_center img{
+	width: 100%;
+}
+
+.indepth_image_left{
+	float: left;
+margin-right: 20px;
+margin-top: 5px;
+	margin-top: 30px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+
+
+.indepth_image_r{
+	float: right ;
+margin-left: 20px;
+margin-top: 5px;
+margin:40px 0px 40px 30px;
+}
+
+.indepth_image_center{
+	width: 100%;
+	margin: 20px auto;
+	display: table;
+}
+
+#indepth_page1 .indepth_image_r{
+	margin: 0;
+	margin-left: 20px;
+	width: 410px;
+}
+
+ .indepth_quote{
+	font-family: 'Roboto';
+	font-size: 25px;
+	color: #000;
+	/*border-bottom: 2px solid #000;
+	border-top: 2px solid #000;*/
+	padding: 10px 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+
+.indepth_quote_right{
+	width: 300px;
+	float: right;
+	margin: 10px 0 10px 15px;
+}
+
+.indepth_quote_left{
+	width: 300px;
+	float: left;
+	margin: 10px 15px 10px 0;
+}
+
+
+/****DINAMICO****/
+
+.indepth_page_uno{
+	background: white;
+}
+#indepth_page0 .indepth_image_r{
+width: 330px;
+margin: auto;
+margin-left: 50px;
+
+
+}
+
+
+
+#indepth_page3 .indepth_image_r{
+	margin: auto;
+	margin-bottom: 15px;
+	width: 460px;
+	margin-left: 20px;
+}
+
+#indepth_page4 .indepth_image_left{
+	width: 420px;
+	margin: auto;
+	margin-right: 30px;
+}
+
+#indepth_page5 .indepth_image_r{
+	width: 420px;
+	margin: 10px 0px 5px 20px;
+}
+
+
+
+#indepth_break_ads .indepth_parallax_back{
+	background-image: url(../images/epura.jpg);
+	height: 800px;
+}
+
+#indepth_break_0 .indepth_parallax_back{
+	background-image: url(../images/brasilenos.jpg);
+}
+
+#indepth_break_1 .indepth_parallax_back{
+	background-image: url(../images/extranjeros.jpg);
+}
+
+#indepth_break_2 .indepth_parallax_back{
+	background-image: url(../images/chicharito.jpg);
+}
+
+#indepth_break_3 .indepth_parallax_back{
+	background-image: url(../images/porcentaje.jpg);
+}
+
+
+#indepth_break_1 .indepth_parallax_back{
+	background-image: url(../images/extranjeros.jpg);
+}
+
+
+@media screen and (min-width: 1920px) {
+	#indepth_libros_container{
+		width: 1920px;
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 2341px) {
+	#indepth_footer .indepth_text{
+		text-align:left;
+		margin-left: -300px;
+	}
+}
+
+/* mobile adecuations */
+
+@media screen and (max-width: 1960px) {
+	min-width: 800px;
+}
+
+/*** Movil ****/
+
+@media screen and (max-width:1023px) {
+	body{
+		width: 100%;
+		min-width: 0px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.indepth_pages{
+		width: 100%;
+		max-width: 800px;	
+		min-width: 0px;
+	}
+
+	.indepth_page{
+		min-width: 0px;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.indepth_page_body{
+		width:95%;
+		margin: 0 auto;
+	}
+	
+	#indepth_cover .indepth_titlle_container {
+		width: 100%;
+	}
+	
+	#indepth_cover .indepth_parallax_back{
+		background-size: auto 800px;
+		background-position: 50% 0;
+	}
+	
+	.indepth_page_infografia .indepth_page_body, .indepth_page_infografia .indepth_page_body img{
+		width: 100%;
+	}
+	
+	.indepth_break .indepth_page_body{
+		width: 100%;
+	}
+
+	
+	/*** dinamico **/
+	
+	.indepth_break .indepth_parallax_back{
+		background-size: auto 100%;
+		background-attachment: scroll;
+	}
+	
+	.indepth_break .indepth_parallax_back .indepth_text_container{
+		padding: 0 10px;
+	}
+
+	#indepth_break_1 .indepth_parallax_back{
+		background-position:  50% 50%;
+	}
+	
+	#indepth_break_1 .indepth_text_container{
+		background-color: rgba(124,90,158,0.65);
+	}
+	
+	#indepth_break_2 .indepth_parallax_back{
+		background-position:  50% 50%;
+	}
+	
+	#indepth_break_2 .indepth_text_container{
+		background-color: rgba(65,118,181,0.57);
+	}
+	
+	#indepth_break_3 .indepth_text_container{
+		background-color:rgba(171,34,32,0.63);
+	}
+	
+	#indepth_break_3 .indepth_parallax_back{
+		background-position: 50% 50%;
+	}
+	
+	#indepth_break_4 .indepth_parallax_back{
+		background-position:  65% 50%;
+	}
+	
+	#indepth_break_4 .indepth_text_container{
+		background-color:rgba(222,157,37,0.6);
+	}
+}
+@media screen and (max-width: 600px) {
+
+.expand-corte{width: 320px;}
+.indepth_tabla_full{width: 320px;}
+.indepth_tg_table{
+	margin: auto;
+	float: none;
+		display: table;
+		margin-bottom: 20px;
+}
+#indepth_tg_table_cont_plus{
+		margin: auto;
+		height: 400px;
+		float: none;
+		display: table;
+	}
+
+	
+	#indepth_cover{
+		height: 650px;
+	}
+	
+	#indepth_cover .indepth_parallax_back{
+		background-size: auto 650px;
+	}
+	
+	
+	.indepth_image_left,.indepth_image_r{
+		width: 100%  !important;
+		float: none !important;
+		margin: 30px auto  !important;
+		text-align: center  !important;
+	}
+	
+	.indepth_video iframe, .indepth_video{
+		width: 100%;
+	}
+	
+	.indepth_numbers_content{
+		width: 100%;
+	}
+	.numers_indepth{
+		width: 280px;
+		margin: 15px auto;
+	}
+	
+	.indepth_text .f_letter{
+		margin-bottom: 45px;
+	}
+	.indepth_quote_left{
+		width: 80%;
+		float: none;
+		margin: 0 auto 25px;
+	}
+	
+	.indepth_parallax_back{
+		background-attachment: initial;
+	}
+	
+	.indepth_break .indepth_title{
+		font-size:56px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	
+	.indepth_libros_controles{
+	display: none;
+}
+}
+
+@media screen and (max-width: 360px) {
+
+	#indepth_tg_table_cont_plus{
+		margin: auto;
+		margin-bottom: 20px;
+		height: 400px;
+		float: none;
+	}
+	
+	.indepth_table_la{
+		float: none;
+		width: 196px;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	
+	#indepth_cover{
+		height: 540px;	
+	}
+	
+	#indepth_cover .indepth_title{
+		width: 100%;
+		font-size: 26px;
+		margin-top: 0px;
+	}
+	
+	#indepth_cover .indepth_cover_back_body{
+		top:40px;
+	}
+	
+	.indepth_break {
+		height: auto;
+		width: 100%;
+	}
+	
+	.indepth_break .indepth_parallax_back {
+		height: 250px;
+		background-size: auto 100%;
+	}
+	.indepth_break .indepth_parallax_back .indepth_text_container{
+		padding: 10px 10px;
+		margin-top: 300px;
+		float: left;
+	}
+	
+	.indepth_quote_left{
+		width: 300px;
+	}
+	
+	.indepth_quote{
+		font-size: 20px;
+		padding: 0px;
+	}
+	
+	.indepth_image_left img,.indepth_image_r img{
+		width: 100%;
+	}
+	
+	#indepth_break_1 .indepth_parallax_back{
+		background-position:  50% 50%;
+	}
+	
+	#indepth_break_1{
+		background-color: #8562a7;
+	}
+	
+	#indepth_break_2 .indepth_parallax_back{
+		background-position:  50% 50%;
+	}
+
+	#indepth_break_2 {
+		background-color: #547dc0;
+	}
+
+	#indepth_break_3 .indepth_parallax_back{
+		background-position:  50% 50%;
+	}
+
+
+	
+	#indepth_break_4 .indepth_parallax_back{
+		background-position:  100% 50%;
+	}
+	
+	#indepth_break_4 {
+		background-color:rgb(222,157,37);
+	}
+	
+	#indepth_break_1 .indepth_text_container{
+		background-color: none;
+	}
+	
+	#indepth_break_2 .indepth_text_container{
+		background-color: none;
+	}
+	
+	#indepth_break_3 .indepth_text_container{
+		background-color:none
+	}
+
+	#indepth_break_4 .indepth_text_container{
+		background-color:none
+	}
+	
+	#indepth_ads #indepth_parallax_back {
+		background-image: url("../images/nike_ad_movil.jpg");
+		background-size: 100%;
+		height: 100%;
+		background-color: #DEF020;
+		background-repeat: no-repeat;
+		background-attachment: initial;
+		background-position: 50% 50%;
+	}
+	
+		#indepth_break_ads .indepth_parallax_back{
+		height: 180px !important;
+	}
+}
+	
+@media screen and (width: 360px) {
+		#indepth_libros_container{
+		height: 539px;
+	}
+}
+
+@media screen and (max-height: 360px) {
+	#indepth_libros_container{
+		height: 320px;
+	}
+
+	
+	#indepth_cover {
+height: 362px;
+}
+#indepth_cover .indepth_cover_back_body {
+top: 160px;
+}
+
+#indepth_cover .indepth_title {
+font-size: 25px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) and (max-height: 768px){
+	.indepth_parallax_back{
+		background-attachment: initial;
+	}
+}
+
+@media screen and (max-height: 1024px) and (max-width: 768px){
+	.indepth_parallax_back{
+		background-attachment: initial;
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+	.indepth_tabla_full{
+		margin-left: -3%;
+	}
+}

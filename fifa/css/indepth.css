@@ -1,0 +1,870 @@
+
+
+.porcent{
+	font-size: 25px;
+	vertical-align: top;
+	line-height: 30px;
+}
+.numers_indepth{
+	display: table;
+	width: 370px;
+	text-align: left;
+	margin: 15px;
+}
+
+.indepth_numbers_content{
+	width: 500px;
+	margin: auto;
+}
+
+.indepth_text .f_letter{
+	width: 137px;
+}
+
+ .numers_indepth{
+	width: 100%;
+	font-size: 16px;
+}
+
+ .indepth_text .f_letter{
+	font-size: 60px;
+	float: left;
+	line-height: 43px;
+	margin-right: 2px;
+	font-weight: 700;
+	width: 138px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+.indepth_pages{
+	width: 100%;
+	min-width: 960px;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	font-family: 'Roboto';
+	font-size: 19px;
+	margin: auto;
+}
+
+.indepth_page{
+	width: 100%;
+	min-width: 960px;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	margin: auto;
+}
+
+.indepth_page_content{
+	background-color: white;
+	position: relative;
+}
+
+.indepth_page_body{
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 810px;
+	z-index: 2;
+}
+
+#indepth_cover{
+	height: 757px;
+	background: #141414;
+}
+
+#indepth_cover .indepth_page_body{
+	position: relative;
+	display: table;
+}
+
+#indepth_cover .indepth_titlle_container{
+	float: left;
+	width: 707px;
+	 color: #FFF;
+}
+
+
+.indepth_video{
+	width:460px;
+	height:auto;
+	margin: auto;
+}
+
+.indepth_video iframe{
+	width:460px;
+	height:259px;
+	margin: auto;
+}
+ #indepth_ver_texto{
+	display: inline-block;
+	padding: 3px 15px;
+	 background-color: rgba(0,0,0,0.25);
+	 border: 1px solid #FFF;
+	 color: #FFF;
+	 margin-top: 12px;
+	 cursor: pointer;
+	 font-weight: 500;
+	 font-size: 10px;
+	 border-radius: 5px;
+	 text-align: center;
+}
+
+#indepth_ver_texto:hover{
+	background-color: rgba(233,233,233,0.15);
+}
+
+#indepth_cover .indepth_parallax_back{
+	background-image: url(../images/portada.jpg);
+	background-size: 1920px auto;
+	background-position: 50% 0;
+}
+
+#indepth_cover .indepth_cover_back_body{
+	position: relative;
+	top: 350px;
+	background: rgba(0, 0, 0, 0.12);
+	padding: 20px 0;
+}
+
+#indepth_cover .indepth_title{
+	font-size:39px;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#indepth_cover .indepth_subtitle{
+	font-size:17px;
+	color:#FFF;
+	font-weight: 400;
+}
+
+/****social*****/
+.indepth_home-element-social div{
+	float: left;
+	margin-top: 3px;
+	margin-left: 6px;
+}
+
+.indepth_home-element-social{
+	width: 160px;
+	margin: 15px auto;
+	height: 30px;
+}
+
+/**********************/
+
+.indepth_page_content .indepth_page_body{
+	padding: 60px 0;
+	position: relative;
+}
+
+.indepth_page_content .indepth_container{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.indepth_page_content .indepth_title{
+	font-size:34px;   /* tamaño */
+	font-family: 'Roboto', sans-serif; /* fuente */
+	font-weight: 300;
+	text-transform: uppercase; /* comentar para quitar mayusculas */
+	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
+	color: #000;
+}
+
+.indepth_page_content .indepth_subtitle{
+	font-size:22px;   /* tamaño */
+	font-family: 'Roboto', sans-serif; /* fuente */
+	font-weight: 400;
+	text-transform: uppercase; /* comentar para quitar mayusculas */
+	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
+	color: #000;
+}
+
+.indepth_page_content .indepth_text{
+	color: #535252; /* color de la fuente*/
+	text-align:justify; /* ajustar alineacion (justify, left, right o center) */
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.indepth_page_infografia{
+	
+}
+
+.indepth_page_infografia .indepth_page_body{
+	text-align: center;
+}
+
+#indepth_footer{
+	background-color: #F8F8F8;
+	border-top: 1px solid #8A8A8A;
+	border-bottom: 1px solid #8A8A8A;
+	padding: 15px 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#indepth_footer .indepth_text{
+	font-size:17px;
+	color: #8A8A8A;
+	text-align:center;
+}
+
+#indepth_footer .indepth_page_body{
+	position: relative;
+}
+
+#indepth_footer .Copyright{
+		float: left;
+		text-align: center;
+		width: 100%;
+}
+
+.indepth_break{
+		height: 800px;
+}
+
+.indepth_break .indepth_page_body{
+	height: 100%;
+	background-size: cover;
+	top: 0px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 0px;
+
+}
+
+.indepth_break .indepth_text_container{
+		height: 100%; /* */
+		display: table;
+}
+
+.indepth_break .indepth_text{
+	font-size:17px;
+	font-weight: 400;
+	color: #fff; /* color de la fuente*/
+	max-width:400px;
+	display: table-cell;
+	vertical-align: middle;		
+	text-align: justify;	
+}
+
+.indepth_break .indepth_title{
+	font-size:56px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+.indepth_parallax_back {
+	height: 100%;
+	background-size: cover;
+	background-color: #000;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+}
+
+
+.indepth_cuadricula{
+	width: 600px;
+	margin: 30px auto 10px;
+	display: table;
+}
+
+.indepth_cuadricula .indepth_cuadricula_fila{
+	width: 100%;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.indetpth_cuadricula_content{
+	width: 200px;
+	float: left;
+}
+
+.indepth_cuadricula_imagen{
+	width: 100px;
+	margin: auto;
+	height: 154px;
+	overflow: hidden;
+}
+
+.indepth_cuadricula_imagen img{
+	width: 100%;
+}
+
+.indepth_cuadricula_text{
+	text-align: center;
+	margin: 10px auto;
+	text-transform: uppercase;
+}
+
+.indepth_image_r img, .indepth_image_left img{
+	width: 100%;
+}
+
+.indepth_image_left{
+	float: left;
+margin-right: 20px;
+margin-top: 5px;
+	margin-top: 30px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+
+
+.indepth_image_r{
+	float: right ;
+margin-left: 20px;
+margin-top: 5px;
+margin:40px 0px 40px 30px;
+}
+
+#indepth_page1 .indepth_image_r{
+	margin: 0;
+	margin-left: 20px;
+	width: 410px;
+}
+
+ .indepth_quote{
+	font-family: 'Roboto';
+	font-size: 25px;
+	color: #000;
+	/*border-bottom: 2px solid #000;
+	border-top: 2px solid #000;*/
+	padding: 10px 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+
+.indepth_quote_right{
+	width: 300px;
+	float: right;
+	margin: 10px 0 10px 15px;
+}
+
+.indepth_quote_left{
+	width: 300px;
+	float: left;
+	margin: 10px 15px 10px 0;
+}
+
+
+/****DINAMICO****/
+
+.indepth_page_uno{
+	background: white;
+}
+#indepth_page0 .indepth_image_r{
+width: 330px;
+margin: auto;
+margin-left: 50px;
+
+
+}
+
+
+
+#indepth_page3 .indepth_image_r{
+	margin: auto;
+	margin-bottom: 15px;
+	width: 460px;
+	margin-left: 20px;
+}
+
+#indepth_page4 .indepth_image_left{
+	width: 420px;
+	margin: auto;
+	margin-right: 30px;
+}
+
+#indepth_page5 .indepth_image_r{
+	width: 420px;
+	margin: 10px 0px 5px 20px;
+}
+
+.indepth_break_tipo2 .indepth_text_container{
+	float: right;
+}
+
+#indepth_break_0 .indepth_parallax_back{
+	background-image: url(../images/pele.jpg);
+}
+
+#indepth_break_1 .indepth_parallax_back{
+	background-image: url(../images/tecmo.jpg);
+}
+
+#indepth_break_2 .indepth_parallax_back{
+	background-image: url(../images/pcgol.jpg);
+}
+
+#indepth_break_3 .indepth_parallax_back{
+	background-image: url(../images/ISSD.jpg);
+}
+
+#indepth_break_4 .indepth_parallax_back{
+	background-image: url(../images/98.jpg);
+}
+
+#indepth_break_5 .indepth_parallax_back{
+	background-image: url(../images/winning_eleven.jpg);
+}
+
+#indepth_break_6 .indepth_parallax_back{
+	background-image: url(../images/game1.jpg);
+}
+
+#indepth_break_7 .indepth_parallax_back{
+	background-image: url(../images/game2.jpg);
+}
+
+#indepth_break_8 .indepth_parallax_back{
+	background-image: url(../images/game3.jpg);
+}
+
+
+/***** menu******/
+#indepth_intro .indepth_authors{
+	width: 600px;
+	margin: 30px auto;
+	height: auto;
+}
+
+#indepth_intro .indepth_authors .indepth_authors_container{
+	height: 130px;
+	margin-bottom: 20px;
+	display: table;
+}
+
+#indepth_authors_2{
+	width: 465px;
+	margin: auto;	
+}
+
+#indepth_authors_1{
+	width: 600px;
+	margin: auto;
+	
+}
+#indepth_intro .indepth_author{
+	float: left;
+}
+
+.indepth_author{
+	width: 150px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	color: #525252;
+	font-size: 14px;
+	font-family: 'roboto';
+	text-align: center;
+	text-transform: uppercase;
+	height: 150px;
+	margin: auto;
+}
+
+#indepth_authors_2 .indepth_author{
+	min-width: 155px;
+	width: 155px;
+}
+
+.indepth_author p{
+	width: 100%;
+}
+
+.indepth_author_menu a{
+	text-decoration: none;
+}
+
+.indepth_author .indepth_author_img{
+	width: 105px;
+	height: 105px;
+	margin: auto;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin-bottom: 3px;
+	background-size: 100%;
+	background-position: 0 100%;
+	cursor: pointer;
+	
+}
+
+.indepth_author .indepth_author_img:hover{
+	background-position: 0 0;
+}
+
+#indepth_authors_1 .indepth_author_img{
+	margin-top: 20px;
+}
+
+#GARRINCHA .indepth_author_img{
+	background-image: url(../images/garnicha200.png);
+}
+
+#PAUL .indepth_author_img{
+	background-image: url(../images/gazza200.png);
+}
+
+#GEORGE .indepth_author_img{
+	background-image: url(../images/GEORGE200.png);
+}
+
+#SOCRATES .indepth_author_img{
+	background-image: url(../images/socrates200.png);
+}
+
+#indepth_libros{
+	background: black;
+}
+
+#indepth_libros_container{
+	height: 484px;
+	overflow: hidden;
+}
+
+#indepth_libros_container img{
+	height: 100%;
+	width: auto;
+	max-width: 100000px;
+}
+
+.indepth_libros_controles{
+	width: 50px;
+	background-color: rgba(0,0,0,0.2);
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+#indepth_libros_left{
+	left: 0px;
+}
+
+#indepth_libros_r{
+	right: 0px;
+}
+
+@media screen and (min-width: 1920px) {
+	#indepth_libros_container{
+		width: 1920px;
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 2341px) {
+	#indepth_footer .indepth_text{
+		text-align:left;
+		margin-left: -300px;
+	}
+}
+
+/* mobile adecuations */
+
+@media screen and (max-width: 1960px) {
+	min-width: 800px;
+}
+
+/*** Movil ****/
+
+@media screen and (max-width:1023px) {
+	body{
+		width: 100%;
+		min-width: 0px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.indepth_pages{
+		width: 100%;
+		max-width: 800px;	
+		min-width: 0px;
+	}
+
+	.indepth_page{
+		min-width: 0px;
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.indepth_page_body{
+		width:95%;
+		margin: 0 auto;
+	}
+	
+	#indepth_cover .indepth_titlle_container {
+		width: 100%;
+	}
+	
+	#indepth_cover .indepth_parallax_back{
+		background-size: auto 800px;
+		background-position: 50% 0;
+	}
+	
+	.indepth_page_infografia .indepth_page_body, .indepth_page_infografia .indepth_page_body img{
+		width: 100%;
+	}
+	
+	.indepth_break .indepth_page_body{
+		width: 100%;
+	}
+
+	
+	/*** dinamico **/
+	
+	.indepth_break .indepth_parallax_back{
+		background-size: auto 100%;
+		background-attachment: scroll;
+	}
+	
+	.indepth_break .indepth_parallax_back .indepth_text_container{
+		padding: 0 10px;
+	}
+
+	#indepth_break_1 .indepth_parallax_back{
+		background-position:  50% 50%;
+	}
+	
+	#indepth_break_1 .indepth_text_container{
+		background-color: rgba(124,90,158,0.65);
+	}
+	
+	#indepth_break_2 .indepth_parallax_back{
+		background-position:  50% 50%;
+	}
+	
+	#indepth_break_2 .indepth_text_container{
+		background-color: rgba(65,118,181,0.57);
+	}
+	
+	#indepth_break_3 .indepth_text_container{
+		background-color:rgba(171,34,32,0.63);
+	}
+	
+	#indepth_break_3 .indepth_parallax_back{
+		background-position: 40% 50%;
+	}
+	
+	#indepth_break_4 .indepth_parallax_back{
+		background-position:  65% 50%;
+	}
+	
+	#indepth_break_4 .indepth_text_container{
+		background-color:rgba(222,157,37,0.6);
+	}
+}
+@media screen and (max-width: 600px) {
+	.rertert{
+	//display: none;}
+	#indepth_intro .indepth_authors{
+		width: 300px;		
+	}
+	
+	#indepth_cover{
+		height: 650px;
+	}
+	
+	#indepth_cover .indepth_parallax_back{
+		background-size: auto 650px;
+	}
+	
+	.indepth_image_left,.indepth_image_r{
+		width: 100%  !important;
+		float: none !important;
+		margin: 30px auto  !important;
+		text-align: center  !important;
+	}
+	
+	.indepth_video iframe, .indepth_video{
+		width: 100%;
+	}
+	
+	.indepth_numbers_content{
+		width: 100%;
+	}
+	.numers_indepth{
+		width: 280px;
+		margin: 15px auto;
+	}
+	
+	.indepth_text .f_letter{
+		margin-bottom: 45px;
+	}
+	.indepth_quote_left{
+		width: 80%;
+		float: none;
+		margin: 0 auto 25px;
+	}
+	
+	.indepth_parallax_back{
+		background-attachment: initial;
+	}
+	
+	.indepth_break .indepth_title{
+		font-size:56px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	
+	.indepth_libros_controles{
+	display: none;
+}
+}
+
+@media screen and (max-width: 360px) {
+	
+	#indepth_cover{
+		height: 540px;	
+	}
+	
+	#indepth_cover .indepth_title{
+		width: 100%;
+		font-size: 26px;
+		margin-top: 0px;
+	}
+	
+	#indepth_cover .indepth_cover_back_body{
+		top:240px;
+	}
+	
+	.indepth_break {
+		height: auto;
+		width: 100%;
+	}
+	
+	.indepth_break .indepth_parallax_back {
+		height: 250px;
+		background-size: auto 100%;
+	}
+	.indepth_break .indepth_parallax_back .indepth_text_container{
+		padding: 10px 10px;
+		margin-top: 300px;
+		float: left;
+	}
+	
+	.indepth_quote_left{
+		width: 300px;
+	}
+	
+	.indepth_quote{
+		font-size: 20px;
+		padding: 0px;
+	}
+	
+	.indepth_image_left img,.indepth_image_r img{
+		width: 100%;
+	}
+	
+	#indepth_break_1 .indepth_parallax_back{
+		background-position:  50% 50%;
+	}
+	
+	#indepth_break_1{
+		background-color: #8562a7;
+	}
+	
+	#indepth_break_2 .indepth_parallax_back{
+		background-position:  50% 50%;
+	}
+
+	#indepth_break_2 {
+		background-color: #547dc0;
+	}
+
+	#indepth_break_3 .indepth_parallax_back{
+		background-position:  80% 50%;
+	}
+
+	
+	#indepth_break_4 .indepth_parallax_back{
+		background-position:  100% 50%;
+	}
+	
+	#indepth_break_4 {
+		background-color:rgb(222,157,37);
+	}
+	
+	#indepth_break_1 .indepth_text_container{
+		background-color: none;
+	}
+	
+	#indepth_break_2 .indepth_text_container{
+		background-color: none;
+	}
+	
+	#indepth_break_3 .indepth_text_container{
+		background-color:none
+	}
+
+	#indepth_break_4 .indepth_text_container{
+		background-color:none
+	}
+	
+	#indepth_ads #indepth_parallax_back {
+		background-image: url("../images/nike_ad_movil.jpg");
+		background-size: 100%;
+		height: 100%;
+		background-color: #DEF020;
+		background-repeat: no-repeat;
+		background-attachment: initial;
+		background-position: 50% 50%;
+	}
+}
+	
+@media screen and (width: 360px) {
+		#indepth_libros_container{
+		height: 539px;
+	}
+}
+
+@media screen and (max-height: 360px) {
+	#indepth_libros_container{
+		height: 320px;
+	}
+
+	
+	#indepth_cover {
+height: 362px;
+}
+#indepth_cover .indepth_cover_back_body {
+top: 160px;
+}
+
+#indepth_cover .indepth_title {
+font-size: 25px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) and (max-height: 768px){
+	.indepth_parallax_back{
+		background-attachment: initial;
+	}
+}
+
+@media screen and (max-height: 1024px) and (max-width: 768px){
+	.indepth_parallax_back{
+		background-attachment: initial;
+	}
+}
