@@ -9,6 +9,11 @@
 	width: 1024px;
 	margin-left: -107px;
 	margin-top: 60px;
+	overflow: hidden;
+}
+
+.indepth_docs_content{
+	width: 300%;
 }
 
 .indepth_docs{
@@ -40,17 +45,16 @@
 
 .indepth_docs_description{
 	height: 181px;
-	background-color: black;
+	background-color: white;
 	bottom:0px;
 	padding: 0 20px;
 	position: absolute;
 	display: table;
-
 }
 
 .indepth_docs_description_content{
 	display: table-cell;
-	color: white;
+	color: #C3C3C3;
 	vertical-align: middle;
 	font-family:"Roboto";
 }
@@ -371,7 +375,7 @@
 .indepth_page_content .indepth_text{
 	color: #535252; /* color de la fuente*/
 	text-align:justify; /* ajustar alineacion (justify, left, right o center) */
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 1em;
 }
 
@@ -495,6 +499,10 @@ margin-top: 15px;
 	width: 600px;
 }
 
+#indepth_intro, #indepth_page3{
+	background:url(../images/pista_back.png) center repeat;
+}
+
 #indepth_page1 .indepth_text{
 	color: #333333;
 	font-weight: 300;
@@ -549,13 +557,6 @@ color: #878787;
 
 /****DINAMICO****/
 
-.indepth_page_uno{
-	background: white;
-}
-
-.indepth_break_tipo2 .indepth_text_container{
-	float: right;
-}
 
 #indepth_break_1 .indepth_parallax_back{
 	background-image: url(../images/9DocsDF_Logo.jpg);
@@ -564,63 +565,9 @@ color: #878787;
 }
 
 
-#indepth_break_5 .indepth_parallax_back{
-	background-image: url(../images/epura.jpg);
-}
 
 /***** menu******/
-#indepth_intro .indepth_authors{
-	width: 600px;
-	margin: 30px auto;
-	height: auto;
-}
 
-#indepth_intro .indepth_authors .indepth_authors_container{
-	height: 130px;
-	margin-bottom: 20px;
-	display: table;
-}
-
-#indepth_authors_2{
-	width: 465px;
-	margin: auto;	
-}
-
-#indepth_authors_1{
-	width: 600px;
-	margin: auto;
-	
-}
-#indepth_intro .indepth_author{
-	float: left;
-}
-
-.indepth_author{
-	width: 120px;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-position: 50% 0px;
-	color: #525252;
-	font-size: 14px;
-	font-family: 'roboto';
-	text-align: center;
-	text-transform: uppercase;
-	height: 150px;
-	margin: auto;
-}
-
-#indepth_authors_2 .indepth_author{
-	min-width: 155px;
-	width: 155px;
-}
-
-.indepth_author p{
-	width: 100%;
-}
-
-.indepth_author_menu a{
-	text-decoration: none;
-}
 
 
 
