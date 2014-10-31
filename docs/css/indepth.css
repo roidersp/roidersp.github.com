@@ -5,8 +5,82 @@
 	height: 100% !important;
 }
 
+.indepth_docs_container{
+	width: 1024px;
+	margin-left: -107px;
+	margin-top: 60px;
+}
+
+.indepth_docs{
+	width: 1024px;
+	height: 550px;
+}
+
+.indepth_docs img{
+	width: 100%;
+}
+
+.indepth_docs_left{
+	float: left;
+	width: 682px;
+	height: 100%;
+}
+
+.indepth_docs_r{
+	float: right;
+	width: 338px;
+	position: relative;
+	height: 100%;
+}
+
+.indepth_docs_small{
+	top: 0px;
+	position: absolute;
+}
+
+.indepth_docs_description{
+	height: 181px;
+	background-color: black;
+	bottom:0px;
+	padding: 0 20px;
+	position: absolute;
+	display: table;
+
+}
+
+.indepth_docs_description_content{
+	display: table-cell;
+	color: white;
+	vertical-align: middle;
+	font-family:"Roboto";
+}
+
+.indepth_docs_title{
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	font-family:"Roboto";
+}
+
+.indepth_docs_text{
+	font-size: 16px;
+	font-family:"Roboto";
+}
 
 
+#indepth_page4a{
+
+}
+
+#indepth_page4a .indepth_page_body{
+	width: 1024px;
+	margin: auto;
+	text-align: center;
+}
+
+#indepth_page4a img{
+	margin: auto;
+}
 
 /*div {
   animation-duration: 0.1s;
@@ -411,6 +485,10 @@ margin-top: 15px;
 	background: url(../images/goal.jpg) center bottom no-repeat, url(../images/goal_back.png) center repeat;
 	background-size: 1920px auto, 100% auto;
 	height: 2000px;	
+}
+
+#indepth_page4a{
+	background:url(../images/goal_back.png) center repeat;	
 }
 
 .indepth_page_image .indepth_page_body{
