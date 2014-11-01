@@ -13,12 +13,14 @@
 }
 
 .indepth_docs_content{
-	width: 300%;
+	width: 800%;
+	position: relative;
 }
 
 .indepth_docs{
 	width: 1024px;
 	height: 550px;
+	float: left;
 }
 
 .indepth_docs img{
@@ -54,7 +56,7 @@
 
 .indepth_docs_description_content{
 	display: table-cell;
-	color: #C3C3C3;
+	color: #818181;
 	vertical-align: middle;
 	font-family:"Roboto";
 }
@@ -69,6 +71,41 @@
 .indepth_docs_text{
 	font-size: 16px;
 	font-family:"Roboto";
+}
+
+.indepth_docs_balls{
+	
+	margin:20px auto;
+	display: table;
+}
+
+.indepth_docs_ball{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	float: left;
+	background-color: #038aca;
+	margin: 0 15px;
+}
+
+.indepth_docs_ball.active{
+	background-color: transparent;
+	border: 4px solid #038aca;
+	width: 7px;
+	height: 7px;
+}
+
+
+
+
+
+.indepth_docs_ball:hover{
+	background-color: #2092ef;
+}
+
+.indepth_docs_ball.active:hover{
+	background-color: transparent;
+	border: 4px solid #2092ef;
 }
 
 
@@ -292,7 +329,7 @@
 
 #indepth_cover .indepth_parallax_back{
 	background: url(../images/test.png) 50% 0px no-repeat, url(../images/back.png) top repeat;
-	background-size: auto 100%, 100%;
+	background-size: auto 100%, cover;
 	background-color: #bcbcbc;
 	animation-duration: 4s;
 	animation-name: changewidth;
@@ -375,7 +412,7 @@
 .indepth_page_content .indepth_text{
 	color: #535252; /* color de la fuente*/
 	text-align:justify; /* ajustar alineacion (justify, left, right o center) */
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 1em;
 }
 
@@ -487,7 +524,7 @@ margin-top: 15px;
 
 #indepth_page4{
 	background: url(../images/goal.jpg) center bottom no-repeat, url(../images/goal_back.png) center repeat;
-	background-size: 1920px auto, 100% auto;
+	background-size: 1920px auto, 1920px auto;
 	height: 2200px;	
 }
 
@@ -499,10 +536,13 @@ margin-top: 15px;
 	width: 600px;
 }
 
-#indepth_intro, #indepth_page3{
+ #indepth_page3{
 	background:url(../images/pista_back.png) center repeat;
 }
-
+.indepth_text{
+	width: 600px;
+	margin:auto;
+}
 #indepth_page1 .indepth_text{
 	color: #333333;
 	font-weight: 300;
@@ -518,7 +558,7 @@ margin-top: 15px;
 }
 
 .indepth_quote_container{
-	width: 600px;
+	width: 700px;
 	margin: auto;
 margin-bottom: 60px;
 color: #878787;
@@ -537,6 +577,8 @@ color: #878787;
 	text-transform: uppercase;
 	font-weight: 300;
 	text-align: center;
+	letter-spacing: 0.05em;
+		
 }
 
 .indepth_quote_autor{
@@ -598,18 +640,85 @@ color: #878787;
 		width: 100%;
 		min-width: 0px;
 	}
+
+
+	.indepth_docs, .indepth_docs_container{
+		width: 800px;
+		height: 443px;
+
+	}
+
+	.indepth_docs_container{
+		margin-left: 0px;
+	}
+	.indepth_docs_r{
+		width: 248px;
+	}
+
+	.indepth_docs_left{
+		width: 550px;
+
+	}
+
+	.indepth_docs_title{
+		font-size: 18px;
+	}
+
+	.indepth_docs_text{
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 800px) {
-	.indepth_africa_mapa{
-	width: 100%;
-	height: auto;
-}
 
-#indepth_editor_profile{
-	width: 100%;
-	margin: auto;
-}
+	#indepth_page3{
+		width: 100%;
+	}
+
+	#indepth_page3 .indepth_page_body{
+		width: 100%;
+	}
+
+	#indepth_page4{
+		background-size: 800px auto, 1920px auto;
+		height: 1500px;
+	}
+
+	#indepth_page4a .indepth_page_body{
+		width: 100%;
+	}
+		#indepth_page4a img{
+			width: 100%;
+		}
+	.indepth_docs, .indepth_docs_container{
+		width: 768px;
+		height: 412px;
+	}
+
+	.indepth_docs_container{
+		margin-left: 0px;
+	}
+	.indepth_docs_r{
+		width: 256px;
+	}
+
+	.indepth_docs_left{
+		width: 512px;
+
+	}
+
+	.indepth_docs_title{
+		font-size: 18px;
+		margin-bottom: 2px;
+	}
+
+	.indepth_docs_text{
+		font-size: 14px;
+	}
+
+	.indepth_docs_description{
+		height: 132px;
+	}
 
 .rertert{
 	width:440px;
@@ -629,69 +738,6 @@ color: #878787;
 	width: 240px;
 }
 
-#indepth_mapa_title{
-	position: relative;
-	width:  300px;
-	margin: 0px auto;
-	top:0px;
-	left: 0px;
-}
-
-#indepth_mapa_title img{
-	width: 100%;
-	margin: 0px 0px 15px 0;
-	
-}
-
-#indepth_mapa_map_imgconteneiner{
-	position: relative;
-	width: 434px;
-	height: 483px;
-	height: auto;
-	margin: 10px auto;
-	
-}
-
-#indepth_mapa_map_imgconteneiner img{
-	width: 100%;
-	top:0px;
-	height: auto;
-}
-
-#indepth_mapa_map{
-	position: relative;
-}
-
-#indepth_mapa_text{
-	position: relative;
-	left: 0px;
-	margin: auto;
-	font-size: 19px;
-	height: 240px;
-	bottom: 0;
-	margin-top: 20px;
-}
-
-
-
-.indepth_mapa_text_title{
-	font-size: 24px;
-}
-
-#indepth_mapa_controles{
-	position: relative;
-	margin: 15px auto;
-	width: 201px;
-	bottom: 0;
-	right: 0;
-}
-
-#indepth_mapa_controles li{
-	width: 34px;
-	margin-right: 40px;
-}
-
-
 	.indepth_pages{
 		width: 100%;
 		max-width: 800px;	
@@ -699,8 +745,8 @@ color: #878787;
 	}
 
 	.indepth_page{
-		min-width: 0px;
 		width: 100%;
+		min-width: 0px;
 		position: relative;
 		overflow: hidden;
 	}
@@ -763,24 +809,18 @@ color: #878787;
 	}
 
 
-	
-	
-	#indepth_break_2 .indepth_parallax_back{
-		background-position:  45% 50%;
-	}
-
-
-	#indepth_break_3 .indepth_parallax_back{
-		background-position: 50% 50%;
-	}
-
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
+	.indepth_quote_container{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 740px) {
 	#indepth_editor_profile .indepth_page_body{
 		width: 100%;
-		
 	}
 	
 	.rertert{
@@ -797,21 +837,77 @@ color: #878787;
 	.editor_picture{
 		top: -15px;
 	}
+
+	#indepth_page4{
+		background-size: 740px auto, 1920px auto;
+		height: 1500px;
+	}
+
+	#indepth_page1{
+		background-size: 740px auto, 1920px auto;
+		height: 1300px;
+	}
+	
+	.indepth_docs_container{
+		width: 320px;
+		height: auto;
+		margin: auto;
+	}
+
+	.indepth_docs, .indepth_docs_container{
+		height: auto;
+	}
+
+	.indepth_docs_small{
+		position: relative;
+	}
+
+	.indepth_docs{
+		width: 320px;
+	}
+
+	.indepth_docs_left,.indepth_docs_r{
+		float: none;
+		width: 100%;
+	}
+
+	.indepth_docs_description{
+		position: relative;
+		margin-bottom: 5px;
+	}
 }
 
 @media screen and (max-width: 605px) {
-	.indepth_media_cont{
-	width:300px;display:table;margin:auto;margin-bottom:20px;margin-top: 20px;
+	
+	.indepth_docs_container{
+		width: 320px;
+		height: auto;
+		margin: auto;
 	}
 
-	.indepth_quote_side{
-		font-size:21px;width:100%;margin:0px;margin-bottom: 15px;padding: 0px;
-		float: left;
+	.indepth_docs, .indepth_docs_container{
+		height: auto;
 	}
-	
-	
-	.indepth_quote_container{
+
+	.indepth_docs_small{
+		position: relative;
+	}
+
+	.indepth_docs{
+		width: 320px;
+	}
+
+	.indepth_docs_left,.indepth_docs_r{
+		float: none;
 		width: 100%;
+	}
+
+	.indepth_docs_description{
+		position: relative;
+		margin-bottom: 5px;
+	}
+	.indepth_quote_container{
+		width: 90%;
 	}
 
 
@@ -825,8 +921,8 @@ color: #878787;
 	}
 	
 	.indepth_break {
-max-height: 500px;
-}
+		max-height: 500px;
+	}
 	
 	#indepth_break_5 {
 		display: table;
@@ -871,6 +967,13 @@ max-height: 500px;
 	.indepth_libros_controles{
 	display: none;
 }
+.indepth_text{
+	width: 100%;
+}
+
+.indepth_page_image .indepth_page_body{
+	width: 95%;
+}
 
 }
 
@@ -878,6 +981,44 @@ max-height: 500px;
 
 	#indepth_cover{
 		height: 540px;	
+	}
+
+	#indepth_page4{
+		background-size: 414px auto, 1920px auto;
+		height: 1500px;
+	}
+
+	#indepth_page1{
+		background-size: 414px auto, 1920px auto;
+		height: 1300px;
+	}
+
+	.indepth_docs_container{
+		width: 320px;
+		height: auto;
+		margin: auto;
+	}
+
+	.indepth_docs, .indepth_docs_container{
+		height: auto;
+	}
+
+	.indepth_docs_small{
+		position: relative;
+	}
+
+	.indepth_docs{
+		width: 320px;
+	}
+
+	.indepth_docs_left,.indepth_docs_r{
+		float: none;
+		width: 100%;
+	}
+
+	.indepth_docs_description{
+		position: relative;
+		margin-bottom: 5px;
 	}
 	
 	#partidos{
@@ -1005,11 +1146,13 @@ max-height: 500px;
 	}
 }
 	
-@media screen and (width: 360px) {
-		#indepth_libros_container{
-		height: 539px;
-	}
+@media screen and (max-width: 360px) {
+			.indepth_docs_ball {
+margin: 0 12px;
 }
+	}
+
+
 
 @media screen and (max-height: 414px) {
 	#indepth_libros_container{

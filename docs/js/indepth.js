@@ -5,6 +5,11 @@ var disqus_number_c=2;
 var disqus_per_page=3;
 var tamaño_total=1920;
 
+var numeroImages2=3;
+ var slider_on2=false;
+ var intervalID2;
+var posicion_slider2=0;
+
 $(document).on("click", "#indepth_button_ver" ,function(){
 		var position = $(".indepth_content_top").position();
 		$('html, body').animate({
@@ -23,6 +28,63 @@ var indepth_sizeAdjust = function(firstTime){
 		}
 	})
 }
+
+
+
+var startslider2 =function(){
+	slider_on2=true;
+	console.log("start");
+	clearInterval(intervalID2);
+	 intervalID2=setInterval(function(){
+	 	if(posicion_slider2<numeroImages2-1){
+	 		posicion_slider2++;
+	 	}else{
+	 		posicion_slider2=0;
+	 	}
+	 	slider_change2();	 		
+	 }, 4000);
+}
+				 
+var slider_change2=function(){
+	 $(".indepth_docs_content").animate({"margin-left":-posicion_slider2*100+"%"},700);
+	 $(".indepth_docs_ball").removeClass('active');
+	 $("#indepth_docs_ball_"+posicion_slider2).addClass('active');
+	  //$(".indepth_info_team_img").css("border-bottom","none");
+	 //$("#indepth_info_team"+posicion_slider2+" .indepth_info_team_img").css("border-bottom","3px solid black");
+
+}
+						 
+var slider_stop2= function(){
+	slider_on2=false;
+	clearInterval(intervalID2);
+}
+
+var slider_back2=function(){
+	 if(posicion_slider2>0){
+	            posicion_slider2 = posicion_slider2-1;
+	            slider_change2();
+	        }
+	       slider_stop2();
+}
+
+var slider_next=function(){
+	 if(numeroImages2-1>posicion_slider2){
+            posicion_slider2 = posicion_slider2+1;
+            slider_change2();
+	        }
+	       slider_stop2();
+}
+
+
+$(".indepth_docs_ball").on("click",function(){
+	posicion_slider2=$(this).attr("number");
+	 slider_change2();
+	 slider_stop2();
+});
+
+$(".indepth_docs").on("click",function(){
+	slider_stop2();
+})
 
 var indepth_preloadImgs = function(){
 	$("img[over]").each(function(){
@@ -123,6 +185,7 @@ if (window.DISQUS) {
 $(document).ready(function(){
 	indepth_sizeAdjust(true);
 	indepth_preloadImgs();
+	 startslider2();
 	var ventana_alto = $(window).height();
 	//$("#indepth_break_2").css("height",)
 	if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod' || navigator.platform == 'Android')
