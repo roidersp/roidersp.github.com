@@ -5,7 +5,7 @@ var disqus_number_c=2;
 var disqus_per_page=3;
 var tamaño_total=1920;
 
-var numeroImages2=3;
+var numeroImages2=8;
  var slider_on2=false;
  var intervalID2;
 var posicion_slider2=0;
